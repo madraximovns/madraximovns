@@ -1,1 +1,4 @@
-
+import math
+a = int(input("sonni_kiriting "))
+b = int(input("darajani_kiriting "))
+print(math.gcd(a, b))
