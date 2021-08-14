@@ -1,1 +1,15 @@
+answer = 42
+distance = 363_104_000
+speed = 1563
+duration = distance / speed
+print(type(answer))
+print(type(duration))
 
+PI = 3.14
+half = 0.5
+healthy_temperature = 36.6
+print(type(PI))
+
+
+a= -15
+print(abs(a))
