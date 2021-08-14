@@ -1,1 +1,15 @@
+ print(f"Salom men  1-10 gacha {number} bir son o\'yladim topishga urinib koringchi sizda 3 ta urinish bor   ")
+    i = 1
+    while True:
+        try:
+            guess = int(input(f"{i} tahminigizni kiriting "))
+            message = check(number, guess)
+            print(message)
+            i += 1
+            if i == 4:
+                sys.exit('siz yutqazdiz ☺!')
+
+        except Gameover:
+            print("siz sonni topdingiz ☻!▌")
+            break
 
