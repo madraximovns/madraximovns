@@ -1,1 +1,11 @@
+num = int(input("Enter you number: "))
+if(num % 3 == 0) and (num % 5 == 0):
+    print("FizBiz")
+elif num % 3 == 0:
+    print("Fiz")
+elif num % 5 == 0:
+    print("Biz")
+else:
+    print(num)
+
 
