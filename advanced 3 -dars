@@ -1,1 +1,8 @@
+    if guess > number:
+        message = f"S iz kiritgan {guess}  soni    men o'ylagan sondan katta "
+        return message
+    if guess < number:
+        message = f"siz kiritgan {guess}   soni men o'yalagan sondan kichik  "
+        return message
 
+    raise Gameover
